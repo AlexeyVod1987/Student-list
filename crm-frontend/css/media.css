@@ -1,0 +1,371 @@
+@media (max-width: 768px) {
+
+    .clients-criterions {
+        align-items: end;
+    }
+
+    .clients-criterions__item {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .clients-criterions__item_id {
+        margin-right: 81px;
+    }
+
+    .clients-criterions__item_fio {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .clients-criterions__item_date {
+        display: flex;
+        margin-right: 14px;
+    }
+
+    .clients-criterions__item:nth-child(4n) {
+        margin-right: 6px;
+        width: 105px;
+    }
+
+    .clients-criterions__item:nth-child(5n) {
+        margin-right: 65px;
+    }
+
+    .clients-criterions__item_id {
+        display: flex;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+
+    .info-table-item__id {
+        margin-right: 5px;
+    }
+
+    .info-table-item__add-info,
+    .info-table-change-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info-table-item__fio,
+    .info-table-item__add-info {
+        max-width: 157px;
+        padding-left: 0;
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .info-table-item__add-info,
+    .info-table-change-info {
+        justify-content: flex-start;
+        height: 35px;
+        margin-right: 12px;
+    }
+
+    .info-table-change-info {
+        margin-right: 25px;
+    }
+
+    .info-table-item__add,
+    .info-table-item__change {
+        font-size: 12px;
+        line-height: 17px;
+        height: 15px;
+    }
+
+    .time-add__clock,
+    .last-change__clock {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .link-list {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+
+    .main {
+        overflow: scroll;
+    }
+
+    .info-table-item {
+        border-bottom: none;
+    }
+
+    .info-table-item__id,
+    .buttons,
+    .info-table-item__fio,
+    .info-table-item__add-info,
+    .info-table-change-info,
+    .link-list {
+        border-bottom: 1px solid rgba(200, 197, 209, .5)
+    }
+
+    .info-table-item__add-info,
+    .info-table-change-info {
+        height: 60px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: .5rem;
+        height: auto;
+    }
+
+    .header_logo {
+        width: 24px;
+        height: 24px;
+        margin: 0;
+    }
+
+    .header_filter {
+        display: none;
+    }
+
+    .table {
+        width: 100%;
+
+    }
+
+
+    .clients-info {
+        overflow-x: scroll;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clients-criterions {
+        width: 593px;
+        padding-left: 5px;
+    }
+
+    .clients-criterions__item_id {
+        margin-right: 62px;
+    }
+
+    .clients-criterions__item_fio {
+        flex: 0 0 95px;
+        margin-right: 50px;
+    }
+
+    .clients-criterions__item_date {
+        flex: 0 0 85px;
+    }
+
+    .info-table {
+        padding: 0;
+    }
+
+
+
+    .info-table-item__id,
+    .time-add__clock,
+    .last-change__clock {
+        font-size: 10px !important;
+        margin: 0;
+    }
+
+    .info-table-item__fio,
+    .link-list,
+    .time-add,
+    .info-table-item__edit,
+    .info-table-item__delete {
+        font-size: 12px;
+    }
+
+    .clients-criterions__item:nth-child(4n) {
+        width: 70px;
+    }
+
+    .clients-criterions__item:nth-child(5n) {
+        margin-right: 37px;
+    }
+
+    .info-table-item__add-info,
+    .info-table-change-info {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 0;
+
+        padding: 0;
+
+        width: 60%;
+    }
+
+    .info-table-item__fio {
+        flex: 0 0 138px;
+    }
+
+    .info-table-item__add-info {
+        padding-right: 40px;
+    }
+
+    .time-add,
+    .last-change,
+    .info-table-change-info {
+        margin: 0 !important;
+    }
+
+    .link-list {
+        margin: 0;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contacts-icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .add-client-modal,
+    .change-client-modal {
+        width: 300px;
+
+        /* padding: 50px; */
+    }
+
+    .add-client-modal__contacts {
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 20px;
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .choices {
+        width: 100%;
+    }
+
+    .text-field__input {
+        width: 100%;
+    }
+
+    .text-field {
+        width: 180%;
+    }
+
+
+
+    .text-field__group {
+        width: 100%;
+    }
+
+    .add-box__title {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contacts__item {
+        width: 70%;
+    }
+
+    .add-client-modal__top {
+
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-container {
+        width: 280px;
+    }
+
+
+
+    .add-box__label {
+        font-size: 15px;
+    }
+
+    .contacts__item.dsp-flex {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+
+    }
+
+
+    #add-form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .change-client-modal__save-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+
+    }
+
+    .change-client-modal__cancel-btn {
+        font-size: 10px;
+    }
+
+    .change-client-modal__top {
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .change-client-modal__title {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin-top: 50px; */
+    }
+
+    .change-client-modal-title {
+        margin-bottom: 0px;
+    }
+
+
+    .change-client-modal__close {
+        top: 9px;
+        right: 9px;
+    }
+
+    .change-client-modal__id {
+        font-size: 13px;
+        /* margin-left: 40px; */
+        margin-bottom: 20px;
+    }
+
+    .del-modal-box {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .del-client-modal {
+        width: 100%;
+    }
+
+}
